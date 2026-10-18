@@ -1,0 +1,9 @@
+defaults:
+  queue_rule:
+    batch_size: 5
+    batch_max_wait_time: 1 min
+    merge_method: merge
+    checks_timeout: auto
+
+merge_protections_settings:
+  reporting_method: check-runs
